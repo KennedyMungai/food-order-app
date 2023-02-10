@@ -4,8 +4,12 @@ import classes from './Cart.module.css'
 
 const Cart = (props) =>
 {
+    const cartItems = []
+
     return (
-        <div>Cart</div>
+        <div>
+
+        </div>
     )
 }
 
