@@ -1,7 +1,7 @@
 import React from 'react'
 
 import classes from './Header.module.css'
-import meals from '../../assets/meals.jpg'
+import mealsImage from '../../assets/meals.jpg'
 
 const Header = (props) =>
 {
@@ -12,7 +12,7 @@ const Header = (props) =>
                 <button>Cart</button>
             </header>
             <div>
-                <img src={meals} />
+                <img src={mealsImage} />
             </div>
         </>
     )
