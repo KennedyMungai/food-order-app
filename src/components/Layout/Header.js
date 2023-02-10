@@ -10,7 +10,9 @@ const Header = (props) =>
                 <h1>Meals R Us</h1>
                 <button>Cart</button>
             </header>
-            <div></div>
+            <div>
+                <img src="../../assets/meals.jpg" alt="A meal" />
+            </div>
         </>
     )
 }
