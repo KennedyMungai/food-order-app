@@ -1,6 +1,7 @@
 import React from 'react'
 
 import classes from './Header.module.css'
+import meals from '../../assets/meals.jpg'
 
 const Header = (props) =>
 {
@@ -11,7 +12,7 @@ const Header = (props) =>
                 <button>Cart</button>
             </header>
             <div>
-                <img src="../../assets/meals.jpg" alt="A meal" />
+                <img src={meals} />
             </div>
         </>
     )
