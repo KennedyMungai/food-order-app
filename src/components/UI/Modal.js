@@ -25,7 +25,7 @@ const ModalOverlay = props =>
 const Modal = (props) =>
 {
     return (
-        <div>Modal</div>
+        <></>
     )
 }
 
