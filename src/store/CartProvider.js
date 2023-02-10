@@ -8,6 +8,11 @@ const defaultCartState = {
 
 const cartReducer = (state, action) =>
 {
+    if (action.type === 'ADD')
+    {
+
+    }
+
     return defaultCartState
 }
 
