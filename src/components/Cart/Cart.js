@@ -1,4 +1,5 @@
 import React from 'react'
+import Modal from '../UI/Modal'
 
 import classes from './Cart.module.css'
 
@@ -16,7 +17,7 @@ const Cart = (props) =>
     </ul>
 
     return (
-        <div>
+        <Modal>
             {cartItems}
             <div className={classes.total}>
                 <span>
@@ -32,7 +33,7 @@ const Cart = (props) =>
                     Order
                 </button>
             </div>
-        </div>
+        </Modal>
     )
 }
 
