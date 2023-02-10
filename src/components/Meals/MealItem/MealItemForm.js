@@ -9,7 +9,11 @@ const MealItemForm = () =>
         <form action="" className={classes.form}>
             <Input label='Amount' input={{
                 id: 'amount',
-                type: 'number'
+                type: 'number',
+                min: '1',
+                max: '5',
+                step: '1',
+                default: '1'
             }} />
             <button>
                 + Add
