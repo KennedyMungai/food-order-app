@@ -19,7 +19,7 @@ function App()
 
   return (
     <>
-      <Cart />
+      {cartIsShown && <Cart />}
       <Header />
       <main>
         <Meals />
