@@ -2,10 +2,10 @@ import React from 'react'
 
 import classes from './Cart.module.css'
 
-const Card = () =>
+const Card = (props) =>
 {
     return (
-        <div>Cart</div>
+        <div>{props.children}</div>
     )
 }
 
