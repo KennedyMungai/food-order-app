@@ -7,7 +7,9 @@ const MealItemForm = () =>
     return (
         <form action="" className={classes.form}>
             <input type="text" />
-            <button></button>
+            <button>
+                + Add
+            </button>
         </form>
     )
 }
