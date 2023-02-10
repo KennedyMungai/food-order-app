@@ -18,6 +18,12 @@ const Cart = (props) =>
     return (
         <div>
             {cartItems}
+            <div className={classes.total}>
+                <span>
+                    Total Amount
+                </span>
+                <span>35.62</span>
+            </div>
         </div>
     )
 }
