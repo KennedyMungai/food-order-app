@@ -4,7 +4,10 @@ import CartContext from './cart-context'
 const CartProvider = (props) =>
 {
     const cartContext = {
-        items: []
+        items: [],
+        totalAmount: 0,
+        addItem: ,
+        removeItem: 
     }
 
     return (
