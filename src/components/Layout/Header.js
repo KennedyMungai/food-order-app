@@ -3,9 +3,12 @@ import React, { useContext } from 'react'
 import classes from './Header.module.css'
 import mealsImage from '../../assets/meals.jpg'
 import HeaderCartButton from './HeaderCartButton'
+import CartContext from '../../store/cart-context'
 
 const Header = (props) =>
 {
+    const headerContext = useContext(CartContext)
+
     return (
         <>
             <header className={classes.header}>
