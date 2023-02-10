@@ -18,7 +18,8 @@ const CartProvider = (props) =>
     const addItemToCartHandler = item =>
     {
         dispatchCartAction({
-            type: 'ADD'
+            type: 'ADD',
+            item
         })
     }
 
