@@ -5,6 +5,8 @@ import Meals from "./components/Meals/Meals";
 
 function App()
 {
+  const [cartIsShown, setCartIsShown] = useState(false)
+
   return (
     <>
       <Cart />
