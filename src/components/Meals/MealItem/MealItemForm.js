@@ -1,4 +1,5 @@
 import React from 'react'
+import Input from '../../UI/Input'
 
 import classes from './MealItemForm.module.css'
 
@@ -6,7 +7,7 @@ const MealItemForm = () =>
 {
     return (
         <form action="" className={classes.form}>
-            <input type="text" />
+            <Input />
             <button>
                 + Add
             </button>
