@@ -5,7 +5,9 @@ import classes from './MealsSummary.module.css'
 const MealsSummary = () =>
 {
     return (
-        <div>MealsSummary</div>
+        <section>
+            <h2>Delicious Food, Delivered to you</h2>
+        </section>
     )
 }
 
