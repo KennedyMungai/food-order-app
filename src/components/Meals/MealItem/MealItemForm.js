@@ -7,7 +7,10 @@ const MealItemForm = () =>
 {
     return (
         <form action="" className={classes.form}>
-            <Input />
+            <Input label='Amount' input={{
+                id: 'amount',
+                type: 'number'
+            }} />
             <button>
                 + Add
             </button>
