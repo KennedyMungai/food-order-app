@@ -4,7 +4,7 @@ import classes from './Cart.module.css'
 
 const Cart = (props) =>
 {
-    const cartItems = <ul>
+    const cartItems = <ul className={classes['cart-items']}>
         {[
             {
                 id: 'c1',
