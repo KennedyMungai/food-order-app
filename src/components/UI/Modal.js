@@ -28,7 +28,7 @@ const Modal = (props) =>
     return (
         <>
             {createPortal(<Backdrop />)}
-            {createPortal(<ModalOverlay />)}
+            {createPortal(<ModalOverlay>{props.children}</ModalOverlay>)}
         </>
     )
 }
