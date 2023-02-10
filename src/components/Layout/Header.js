@@ -7,8 +7,6 @@ import CartContext from '../../store/cart-context'
 
 const Header = (props) =>
 {
-    const headerContext = useContext(CartContext)
-
     return (
         <>
             <header className={classes.header}>
