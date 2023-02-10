@@ -1,6 +1,10 @@
 import React, { useReducer } from 'react'
 import CartContext from './cart-context'
 
+const defaultCartState = {
+
+}
+
 const cartReducer = (state, action) =>
 {
     return
