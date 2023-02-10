@@ -10,7 +10,7 @@ const cartReducer = (state, action) =>
 {
     if (action.type === 'ADD')
     {
-
+        const updatedItems = state.items.concat()
     }
 
     return defaultCartState
