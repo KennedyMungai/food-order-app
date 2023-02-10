@@ -8,7 +8,7 @@ const HeaderCartButton = (props) =>
     return (
         <button>
             <span>
-
+                <CartIcon />
             </span>
             <span></span>
             <span></span>
