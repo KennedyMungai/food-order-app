@@ -6,7 +6,10 @@ const Header = (props) =>
 {
     return (
         <>
-            <header></header>
+            <header>
+                <h1>Meals R Us</h1>
+                <button>Cart</button>
+            </header>
             <div></div>
         </>
     )
