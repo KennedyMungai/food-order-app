@@ -6,6 +6,8 @@ import classes from './HeaderCartButton.module.css'
 
 const HeaderCartButton = (props) =>
 {
+    const cartCtx = useContext(CartContext)
+
     return (
         <button className={classes.button} onClick={props.onClick}>
             <span className={classes.icon}>
