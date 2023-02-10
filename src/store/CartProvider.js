@@ -4,7 +4,9 @@ import CartContext from './cart-context'
 const CartProvider = (props) =>
 {
     return (
-        <div>CartProvider</div>
+        <CartContext.Provider>
+            {props.children}
+        </CartContext.Provider>
     )
 }
 
