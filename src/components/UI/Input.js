@@ -6,7 +6,9 @@ const Input = (props) =>
 {
     return (
         <div className={classes.input}>
-            <label htmlFor="dynamic-input"></label>
+            <label htmlFor="dynamic-input">
+                {props.label}
+            </label>
             <input type="text" id='dynamic-input' />
         </div>
     )
