@@ -5,8 +5,13 @@ import classes from './MealItemForm.module.css'
 
 const MealItemForm = (props) =>
 {
+    const submitHandler = (e) => 
+    {
+        e.preventDefault()
+    }
+
     return (
-        <form action="" className={classes.form}>
+        <form action="" className={classes.form} onSubmit={submitHandler}>
             <Input label='Amount' input={{
                 id: 'amount_' + props.id,
                 type: 'number',
