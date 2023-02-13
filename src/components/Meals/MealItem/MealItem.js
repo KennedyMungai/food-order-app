@@ -12,7 +12,12 @@ const MealItem = (props) =>
 
     const addToCartHandler = (amount) => 
     {
-
+        cartCtx.addItem({
+            id: props.id,
+            name: props.name,
+            amount,
+            price: props.price
+        })
     }
 
     return (
