@@ -5,6 +5,7 @@ import classes from './MealItemForm.module.css'
 
 const MealItemForm = (props) =>
 {
+    const [amountIsValid, setAmountIsValid] = useState(true)
     const amountInputRef = useRef()
 
     const submitHandler = (e) => 
