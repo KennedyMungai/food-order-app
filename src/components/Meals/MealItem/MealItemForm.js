@@ -5,6 +5,8 @@ import classes from './MealItemForm.module.css'
 
 const MealItemForm = (props) =>
 {
+    const amountInputRef = useRef()
+
     const submitHandler = (e) => 
     {
         e.preventDefault()
