@@ -8,7 +8,7 @@ const Cart = (props) =>
 {
     const cartCtx = useContext(CartContext)
 
-    const totalAmount = cartCtx.totalAmount.toFixed(2)
+    const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`
 
     const cartItems = <ul className={classes['cart-items']}>
         {cartCtx.items.map(item => <li>{item.name}</li>)}
