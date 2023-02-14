@@ -8,6 +8,8 @@ const Cart = (props) =>
 {
     const cartCtx = useContext(CartContext)
 
+    const totalAmount = cartCtx.totalAmount
+
     const cartItems = <ul className={classes['cart-items']}>
         {cartCtx.items.map(item => <li>{item.name}</li>)}
     </ul>
